@@ -34,9 +34,5 @@ class ResourceApplication  extends WebSecurityConfigurerAdapter {
     http.authorizeRequests().anyRequest().authenticated()
   }
 
- /*  @Bean
-  HeaderHttpSessionStrategy sessionStrategy() {
-    new HeaderHttpSessionStrategy();
-  }*/
   
 }
